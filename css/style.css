@@ -1,0 +1,393 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+   box-sizing: border-box;
+     
+}
+
+body {
+   font-family: 'Varela Round', sans-serif;
+   line-height: 1.6;
+   color: #3a3a3a;
+   padding-top: 40px;
+   background: #d9e4ea;
+}
+
+p {
+   font-size: .95em;
+   margin-bottom: 1.8em;
+}
+
+.name,
+h2,
+h3,
+a {
+   color:#093a58;
+}
+
+h2,
+h3,
+h4 {
+   margin-top: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+}
+
+figure {
+   margin: 0 auto;
+   line-height: 0;
+   position: relative;
+}
+
+.feat-img {
+   border: 4px solid #175c82;
+}
+
+figcaption {
+   font-size: .9em;
+   line-height: 1.5;
+   color: #fff;
+   padding: 1em;	
+   background: rgba(19,43,102, .65);
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-nav {
+   position: fixed;
+   width: 100%;
+   top: -1px;
+   z-index: 1001;
+   text-align: center;
+   height: 38.5px;
+   background: #ffffff;
+   box-shadow:0 3.5px 6px #000000;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.banner,
+.main-footer {
+   text-align: center;
+}
+
+.banner {
+   color: #fff;
+   background: url(../img/png/harrys-exterior-1.png) center center no-repeat;
+   background-size: cover;
+   padding: 4em 0;
+   height: 220px;
+   position: relative;
+}
+
+.banner-caption {
+   display: inline-block;
+   background: rgba(19,43,102, .55);
+   height: 220px;
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+}
+
+.middle-content {
+   padding: 40px 20px 20px
+}
+
+.main-footer {
+   background: #093a58;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   position: absolute;
+   width: 100%;
+   
+}
+
+/*----- Contact Form -----*/
+
+.contactForm {
+   background: #ffffff;
+   padding: 30px 20px 20px;
+   color: #093a58;
+   max-width: 768px;
+   margin: 0 auto
+}
+
+.form-header {
+   text-align: center;
+   padding-bottom: 10px
+}
+
+.form-header p {
+   padding-top: 10px
+}
+
+ hr {
+   border: none;
+   height: 5px;
+   background: #093a58;
+   width: 90%;
+   border: 1px solid #093a58;
+   border-radius: 4px;
+}
+
+.bottom-hr {
+   text-align: center;
+   padding-top: 40px
+}
+
+.form-title {
+  font-size: 1.2em 
+}
+
+.control-group input,
+textarea {
+   outline: 0;
+   border-style: none;
+   display: block;
+   width: 100%;
+   background: #eeeeee;
+   padding: 10px;
+   border: 2px solid #eeeeee;
+   transition: all 0.30s ease-in-out; 
+   border-radius: 6px;
+}
+
+.control-group input:focus,
+.control-group input:hover,
+textarea:focus,
+textarea:hover {
+   border: 2px solid rgba(58,206,195, .5);
+   box-shadow: 0 0 2px #3acec3; 
+   color: #093a58;
+}
+
+.control-group input {
+   height: 40px;
+}
+
+.control-group label {
+   display: block;
+   width: 100%;
+   cursor: pointer;
+}
+
+.btn {
+   outline: 0;
+   border: none;
+   width: 100px;
+   height: 40px;
+   background: #3acec3;
+   color: #ffffff;
+   border-radius: 6px;
+}
+
+.btn:hover {
+   background: #2ea49c;
+   transition: .4s ease-in-out;
+}
+
+.alert-success,
+.alert-danger {
+   background: #3acec3;
+   color: #ffffff;
+   padding-right: 10px;
+   text-align: center;
+   width: 400px;
+   border-radius: 6px;
+}
+
+.alert-success button,
+.alert-danger button {
+   outline: 0;
+   background: none;
+   border: none;
+   height: 40px
+}
+
+/* ---- Page Elements ---- */
+
+
+
+.headline {
+   font-size: 1.6em;
+   margin-top: 50px; 
+   margin-bottom: 0;
+}
+
+.banner-caption span {
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+}
+
+.icon-location {
+   width: 35px;
+   position: absolute;
+   top: -15px;
+   right: -15px;
+}
+
+.icon-location:hover {
+    transform: rotate(45deg);
+    transition: .2s ease-out;
+}
+
+.main-footer li {
+   display: inline-block;
+   padding-left: 2px;
+   padding-right: 2px;  
+}
+
+.main-footer h3 {
+   margin: 0;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   color: #ffffff;
+   font-size: 1em;
+}
+
+.icon-credits {
+   font-size: .6em;
+   width: 300px;
+   margin: 0 auto;
+}
+
+.trust-logo img{
+    width: 80px;
+    margin: 0 auto
+}
+
+.trust-logo h4 {
+    text-decoration: none;
+    padding-right: 12px;
+    margin: 0;
+    color: #ffffff;
+   font-size: 1.5em
+}
+
+.trust-logo h4:hover {
+   text-decoration: none
+}
+
+.top {
+   display: inline-block;
+   margin-top: 16px;
+   color: #ffffff;
+   font-size: .75em;
+}
+
+.main-footer h3:hover,
+.top:hover {
+   color: #3acec3;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+   body {
+      padding-top: 60px;
+   }
+
+   .main-nav {
+      height: 60px
+   } 
+   
+   .headline {
+      font-size: 2.6em;
+   }
+   
+   .container-two {
+      padding: 0 30px 60px;
+   }
+
+   .col {
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   .primary {
+      width: 60%;
+   }
+    
+   .feat-img {
+      height: 250px;
+      width: 100%
+   }
+
+   .secondary {
+      width: 40%;
+   }
+
+   .contactForm {
+      border-radius: 6px
+   }
+
+	/* ---- Float clearfix ---- */
+
+   .clearfix::after {
+      content: " ";
+      display: table;
+      clear: both;
+   }
+
+}
+
+@media (min-width: 1025px) {
+	
+   .container-two {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding-bottom: 80px
+   }
+   
+   .banner {
+      height: 300px;
+   }
+   
+   .banner-caption {
+      height: 300px;
+   }
+   
+   .headline {
+      margin-top: 100px;
+   }
+   
+   .primary {
+      width: 30%;
+   }
+
+   .secondary {
+      width: 30%;
+   }
+   
+   .tertiary {
+      width:40%;
+   }  
+
+}
+
+
+
+
+
