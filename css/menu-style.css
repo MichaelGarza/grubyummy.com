@@ -47,11 +47,11 @@ ul#css3menu0 .topfirst ul ul {
 }
 
 ul#css3menu0 .topmenu ul ul {
-   left: -60%;
+   left: -48%;
 }
 
 ul#css3menu0 .toplast ul ul {
-   left:-50%;  
+   left:-40%;  
 }
 
 ul#css3menu0 li:hover>* {
@@ -267,17 +267,17 @@ ul#css3menu0 li.toplast>a {
    }
    
    ul#css3menu0 .topfirst ul ul {
-      left: 90%;
+      left: 85%;
       top: -40%;
    }
 
    ul#css3menu0 .topmenu ul ul {
-      left: -64%;
+      left: -50%;
       top: -40%;
    }
 
    ul#css3menu0 .toplast ul ul {
-      left:-53%;
+      left:-42%;
       top: -40%;
    }
 

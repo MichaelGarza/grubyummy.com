@@ -257,10 +257,10 @@ textarea:hover {
 
 .main-footer h3 {
    margin: 0;
-   padding-top: 10px;
-   padding-bottom: 5px;
+   padding-top: 4px;
+   padding-bottom: 4px;
    color: #ffffff;
-   font-size: 1em;
+   font-size: .8em;
 }
 
 .icon-credits {
@@ -269,26 +269,8 @@ textarea:hover {
    margin: 0 auto;
 }
 
-.trust-logo img{
-    width: 80px;
-    margin: 0 auto
-}
-
-.trust-logo h4 {
-    text-decoration: none;
-    padding-right: 12px;
-    margin: 0;
-    color: #ffffff;
-   font-size: 1.5em
-}
-
-.trust-logo h4:hover {
-   text-decoration: none
-}
-
 .top {
    display: inline-block;
-   margin-top: 16px;
    color: #ffffff;
    font-size: .75em;
 }
